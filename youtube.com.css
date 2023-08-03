@@ -1,0 +1,29 @@
+#related,
+#comments,
+#secondary,
+#merch-shelf {
+  opacity: 0.2;
+}
+#related:hover,
+#comments:hover,
+#secondary:hover,
+#description:hover,
+#above-the-fold:hover {
+  opacity: 1;
+}
+#masthead-container,
+#info,
+#meta,
+#description,
+#above-the-fold {
+  opacity: 0.5;
+}
+#items a[aria-label="Originals"],
+#items a[title="Trending"],
+a[title="Next (SHIFT+n)"],
+a[aria-label="Next (SHIFT+n)"],
+a.ytp-next-button.ytp-button,
+ytd-merch-shelf-renderer,
+ytd-reel-shelf-renderer {
+  display: none;
+}
