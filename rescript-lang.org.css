@@ -35,12 +35,16 @@ textarea {
   color: var(--text) !important;
 }
 
-.bg-gray-5-tr {
+[class*="bg-"] {
    background-color: var(--surface0) !important;
 }
 
-.text-gray-80,
-.text-gray-100,
-.hl-1 {
+[class*="border-"] {
+   border-color: var(--surface1) !important;
+}
+
+[class*="text-"],
+[class*="hl-"],
+p {
   color: var(--text) !important;
 }
