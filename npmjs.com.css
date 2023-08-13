@@ -1,0 +1,13 @@
+body,
+#main,
+#footer,
+p,
+div,
+span {
+  background-color: hsl(0, 0%, 18%) !important;
+  color: hsl(0, 0%, 65%) !important;
+}
+
+pre, pre * {
+  background-color: hsl(0, 0%, 25%) !important;
+}
