@@ -32,8 +32,18 @@ body {
   background-color: var(--base) !important;
 }
 
+.ReactMarkdown code {
+  color: var(--blue);
+  background-color: var(--overlay0);
+}
+
+
 .bg-white {
   background-color: var(--surface0) !important;
+}
+
+.aspect-square.rounded-full.bg-white {
+  background-color: var(--lavender) !important;
 }
 
 .bg-uivory-300 {
@@ -42,4 +52,17 @@ body {
 
 .text-stone-900 {
   color: var(--text) !important;
+}
+
+.ProseMirror {
+  background-color: var(--surface0) !important;
+  color: var(--text) !important;
+}
+
+.backdrop-blur {
+  backdrop-filter: none !important;
+}
+
+.bg-uivory-100\/50 {
+  background-color: transparent !important;
 }
